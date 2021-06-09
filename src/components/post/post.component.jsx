@@ -15,8 +15,7 @@ const Post = ({postId}) => {
                setPost(posts[0]);
            }
            fetchPost();
-       } 
-    );
+       }, [postId]);
 
     return(
         <Card>

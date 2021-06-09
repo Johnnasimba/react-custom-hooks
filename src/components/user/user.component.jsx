@@ -15,8 +15,7 @@ const User = ({userId}) => {
 
             }
             fetchUser();
-        }
-    )
+        },[userId]);
 
     return(
         <Card >
